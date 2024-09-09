@@ -20,4 +20,12 @@ public class Mentoria extends Conteudo {
                 ", data=" + data +
                 "}";
     }
+
+    public LocalDate getData() {
+        return data;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
 }
